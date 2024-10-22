@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import * as jsonService from 'vscode-json-languageservice';
+import * as jsonService from '@kong/vscode-json-languageservice';
 import type { worker } from '../../fillers/monaco-editor-core';
 import { URI } from 'vscode-uri';
 import { DiagnosticsOptions } from './monaco.contribution';
